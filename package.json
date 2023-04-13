@@ -62,7 +62,6 @@
     "webp-hero": "0.0.2"
   },
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "start": "cross-env TSC_WATCHFILE=UseFsEventsWithFallbackDynamicPolling vite",
     "build": "vite build",
     "test": "vite test",
